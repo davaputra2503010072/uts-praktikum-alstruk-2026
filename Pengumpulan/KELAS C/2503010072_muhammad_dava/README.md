@@ -22,7 +22,7 @@
 
 # ANALISIS & PEMBAHASAN SOAL
 
-## Soal 1 – Array & Struct
+## Soal 1  
 
 ### Analisis
 Pada soal ini digunakan konsep **Array of Struct** untuk menyimpan data mahasiswa.  
@@ -53,7 +53,7 @@ Konsep Array dan Struct mempermudah pengelolaan data dalam jumlah banyak secara 
 
 ---
 
-## Soal 2 – Stack & Queue
+## Soal 2 
 
 ### Analisis
 Pada soal ini digunakan dua struktur data dasar yaitu:

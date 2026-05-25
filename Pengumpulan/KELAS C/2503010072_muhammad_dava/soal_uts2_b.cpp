@@ -27,14 +27,18 @@ void enqueue(string nama) {
 }
 
 void dequeue() {
-    if (isEmpty()) {
-        cout << "Queue kosong!" << endl;
-    } else {
-        cout << queue[front] << " keluar dari antrian" << endl;
-        front++;
-        tampil();
-    }
-}
+     if (isEmpty()) {
+         cout << "Queue kosong!" << endl;
+     } else {
+         cout << queue[front] << " keluar dari antrian" << endl;
+         front++;
+        if (front > rear) {
+            front = 0;
+            rear = -1;
+        }
+         tampil();
+     }
+ }
 
 void peek() {
     if (isEmpty()) {

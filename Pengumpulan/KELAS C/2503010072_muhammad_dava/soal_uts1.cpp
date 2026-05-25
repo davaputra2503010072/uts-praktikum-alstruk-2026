@@ -17,6 +17,10 @@ int main() {
 
     cout << "Masukkan jumlah mahasiswa (1-5) : ";
     cin >> jumlah;
+    if (jumlah < 1 || jumlah > 5) {
+        cout << "Jumlah mahasiswa harus antara 1 sampai 5." << endl;
+        return 1;
+    }
 
     // Input data mahasiswa
     for (int i = 0; i < jumlah; i++) {
